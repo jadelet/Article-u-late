@@ -1,0 +1,31 @@
+{
+  "name": "article-u-late",
+  "version": "1.0.0",
+  "description": "A sort of news app, I suppose. . .",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jadelet/Article-u-late.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jadelet/Article-u-late/issues"
+  },
+  "homepage": "https://github.com/jadelet/Article-u-late#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.12",
+    "mongodb": "^3.1.9",
+    "mongoose": "^5.3.10",
+    "morgan": "^1.9.1"
+  }
+}
