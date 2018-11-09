@@ -7,7 +7,7 @@ var cheerio = require("cheerio");
 var mongoose = require("mongoose");
 
 var PORT = 3000;
-var MONGODB_URI = process.env.MONGODB_URI || ("mongodb://localhost/mongoHeadlines", { useNewUrlParser: true });
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
 
 
 mongoose.connect(MONGODB_URI);
